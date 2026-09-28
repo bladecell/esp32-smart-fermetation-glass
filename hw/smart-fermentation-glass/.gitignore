@@ -1,0 +1,18 @@
+# KiCad lock files
+~*.lck
+*.lck
+
+# KiCad local/user-specific project settings
+*.kicad_prl
+
+# KiCad backup files/directories
+*-backups/
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Generated cache
+fp-info-cache
+
+# Local editor/history files
+.history/
