@@ -2814,6 +2814,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Espressif:ESP32-C3-WROOM-02"
 			(pin_names
 				(offset 1.016)
@@ -5291,6 +5414,220 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "custom:SRN4018-470M"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 16.51 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SRN4018-470M"
+				(at 16.51 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SRN4018470M"
+				(at 16.51 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srn4018.pdf"
+				(at 16.51 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Inductor SMD 4x4 semi-shielded 47uH Bourns SRN4018 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 47 uH +/-20% Wire-Wound 0.6A rms Idc"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.8"
+				(at 16.51 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "652-SRN4018-470M"
+				(at 16.51 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRN4018-470M?qs=UvjENeDOEee2dr9Hzw8jPw%3D%3D"
+				(at 16.51 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 16.51 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SRN4018-470M"
+				(at 16.51 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "SRN4018-470M_1_1"
+				(arc
+					(start 5.08 0)
+					(mid 6.35 1.219)
+					(end 7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 8.89 1.219)
+					(end 10.16 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0)
+					(mid 11.43 1.219)
+					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 13.97 1.219)
+					(end 15.24 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "custom:VL53L4CDV0DH_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5654,220 +5991,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "custom:VLS5045EX-470M"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 16.51 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "VLS5045EX-470M"
-				(at 16.51 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "VLS5045EX330M"
-				(at 16.51 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf"
-				(at 16.51 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "SMD / SMT Inductors (Coils), L=47?H, L x W x T :"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "4"
-				(at 16.51 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "810-VLS5045EX-470M"
-				(at 16.51 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/VLS5045EX-470M?qs=oF%2FSscNnLpCeYwLVwva3Sw%3D%3D"
-				(at 16.51 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "TDK"
-				(at 16.51 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "VLS5045EX-470M"
-				(at 16.51 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "VLS5045EX-470M_1_1"
-				(arc
-					(start 5.08 0)
-					(mid 6.35 1.219)
-					(end 7.62 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 0)
-					(mid 8.89 1.219)
-					(end 10.16 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 0)
-					(mid 11.43 1.219)
-					(end 12.7 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 12.7 0)
-					(mid 13.97 1.219)
-					(end 15.24 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6788,6 +6911,10 @@
 		(uuid "665c1dde-871d-47b7-a949-4c68cc49c631")
 	)
 	(no_connect
+		(at 129.54 101.6)
+		(uuid "8b774f82-9dfe-4852-a5fc-2853b8f3e144")
+	)
+	(no_connect
 		(at 269.24 261.62)
 		(uuid "8f568777-3433-401f-8f39-22fed9d9b47b")
 	)
@@ -7307,6 +7434,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 86.36) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39447c1d-ef31-423f-8195-0d660c164e43")
+	)
+	(wire
+		(pts
 			(xy 31.75 60.96) (xy 31.75 62.23)
 		)
 		(stroke
@@ -7467,6 +7604,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2fd06f-bf22-441a-b393-66123aa22304")
+	)
+	(wire
+		(pts
 			(xy 347.98 119.38) (xy 347.98 120.65)
 		)
 		(stroke
@@ -7494,6 +7641,16 @@
 			(type default)
 		)
 		(uuid "4daa03a0-db87-49f2-aeab-a3aa1f5c830d")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2d775e-3ceb-49be-87e1-324cbe1846f0")
 	)
 	(wire
 		(pts
@@ -7977,16 +8134,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 93.98) (xy 133.35 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a84e24-9d10-42d2-ae1d-a05c01e7ccfc")
-	)
-	(wire
-		(pts
 			(xy 187.96 31.75) (xy 187.96 33.02)
 		)
 		(stroke
@@ -8214,6 +8361,16 @@
 			(type default)
 		)
 		(uuid "80c0c4c5-9490-48c4-9e1a-aeacb90a39b1")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a90ad0-6d81-4617-9ae8-335908d15613")
 	)
 	(wire
 		(pts
@@ -8577,16 +8734,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 96.52) (xy 133.35 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae3c5e0b-8c21-4e2a-962d-ec1e7de3d193")
-	)
-	(wire
-		(pts
 			(xy 369.57 45.72) (xy 369.57 44.45)
 		)
 		(stroke
@@ -8847,16 +8994,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 99.06) (xy 133.35 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2eca7da-f342-4840-a5fd-95514b23189d")
-	)
-	(wire
-		(pts
 			(xy 344.17 69.85) (xy 344.17 71.12)
 		)
 		(stroke
@@ -8904,16 +9041,6 @@
 			(type default)
 		)
 		(uuid "c4f8eab5-5b66-4aae-a303-56b33ceb24b8")
-	)
-	(wire
-		(pts
-			(xy 129.54 88.9) (xy 133.35 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c55b07e4-e928-4741-8aa6-b1e67434c553")
 	)
 	(wire
 		(pts
@@ -9117,6 +9244,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 193.04) (xy 346.71 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f6093b-c55b-426e-b61c-16eab83a52d2")
+	)
+	(wire
+		(pts
 			(xy 101.6 41.91) (xy 101.6 44.45)
 		)
 		(stroke
@@ -9144,16 +9281,6 @@
 			(type default)
 		)
 		(uuid "d594f86a-cee6-4d63-9241-083995861d92")
-	)
-	(wire
-		(pts
-			(xy 129.54 91.44) (xy 133.35 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5db90e0-3bd9-4b24-80f3-9b10eb5be84c")
 	)
 	(wire
 		(pts
@@ -9227,16 +9354,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 133.35 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daf48d1f-5eae-43e1-89ed-0f57b6c54fa3")
-	)
-	(wire
-		(pts
 			(xy 189.23 257.81) (xy 189.23 261.62)
 		)
 		(stroke
@@ -9304,6 +9421,16 @@
 			(type default)
 		)
 		(uuid "e07f7012-bb17-4e82-9a60-fbe7e806caff")
+	)
+	(wire
+		(pts
+			(xy 321.31 193.04) (xy 321.31 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0aa090a-6d28-4578-b39f-b99c932e299a")
 	)
 	(wire
 		(pts
@@ -9394,6 +9521,16 @@
 			(type default)
 		)
 		(uuid "f0712a95-d6d0-4e08-85cb-2fe4c0515bac")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0dc8660-2cd7-4e01-9ed2-b4aa50615691")
 	)
 	(wire
 		(pts
@@ -9507,6 +9644,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 99.06) (xy 133.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1a2048-71f6-4cbb-9361-6fac1a46ec05")
+	)
+	(wire
+		(pts
 			(xy 199.39 257.81) (xy 199.39 261.62)
 		)
 		(stroke
@@ -9616,7 +9763,7 @@
 		(uuid "3ae50d86-9154-4e15-bdbf-acd374664c8b")
 	)
 	(label "RST"
-		(at 133.35 91.44 0)
+		(at 133.35 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9626,7 +9773,7 @@
 		(uuid "44c3b69f-2044-43c1-8dab-c2fc1a2f37e2")
 	)
 	(label "BUSY"
-		(at 133.35 93.98 0)
+		(at 133.35 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9666,7 +9813,7 @@
 		(uuid "618517ce-3922-4266-8bea-196938370d2d")
 	)
 	(label "D{slash}C"
-		(at 133.35 88.9 0)
+		(at 133.35 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9786,7 +9933,7 @@
 		(uuid "9df3a644-3291-4b6f-9c36-8141f68019e5")
 	)
 	(label "SDI"
-		(at 133.35 99.06 0)
+		(at 133.35 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9816,7 +9963,7 @@
 		(uuid "a49fc7a0-c74c-4320-946c-714a0741a95a")
 	)
 	(label "CS"
-		(at 133.35 86.36 0)
+		(at 133.35 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10006,7 +10153,7 @@
 		(uuid "f80c6c4d-1609-4313-a459-8ad92856d8ae")
 	)
 	(label "SCLK"
-		(at 133.35 96.52 0)
+		(at 133.35 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10195,7 +10342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 46.228 90)
 			(hide yes)
 			(show_name no)
@@ -10275,7 +10422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.18 184.658 90)
 			(hide yes)
 			(show_name no)
@@ -10713,14 +10860,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 162.56 171.45 0)
+		(property "Value" "+3V3"
+			(at 165.1 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -10802,7 +10950,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.678 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -11269,14 +11417,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 316.23 135.89 0)
+		(property "Value" "+3V3"
+			(at 318.77 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11429,14 +11578,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 139.7 53.34 0)
+		(property "Value" "+3V3"
+			(at 142.24 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12041,6 +12191,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 321.31 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36507090-a74c-498d-90ce-c9fd3c52b3a1")
+		(property "Reference" "#PWR042"
+			(at 321.31 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 321.31 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 321.31 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bfbbe2f-ac4d-41eb-a078-088dda3c468d")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 213.36 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -12296,14 +12524,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 148.59 88.9 0)
+		(property "Value" "+3V3"
+			(at 151.13 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12374,14 +12603,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 111.76 233.68 0)
+		(property "Value" "+3V3"
+			(at 114.3 237.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12824,6 +13054,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 321.31 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "508a74ab-59cb-414c-8c29-cd0d54fa739c")
+		(property "Reference" "H1"
+			(at 323.85 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 323.85 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 321.31 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 321.31 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "290d5c5d-5be9-4b3a-b4cc-6ad68317a782")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:TPS63031DSK")
 		(at 344.17 54.61 0)
 		(unit 1)
@@ -13124,7 +13433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.708 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -13526,7 +13835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VL53L4CDV0DH1"
+		(property "Footprint" "custom:VL53L4CDV0DH1"
 			(at 236.22 202.87 0)
 			(hide yes)
 			(show_name no)
@@ -13908,6 +14217,148 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:SRN4018-470M")
+		(at 119.38 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "617561bd-13ac-41d7-bf77-3c3f4d959922")
+		(property "Reference" "L2"
+			(at 129.54 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SRN4018-470M"
+			(at 129.54 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SRN4018470M"
+			(at 135.89 337.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srn4018.pdf"
+			(at 135.89 437.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Inductor SMD 4x4 semi-shielded 47uH Bourns SRN4018 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 47 uH +/-20% Wire-Wound 0.6A rms Idc"
+			(at 119.38 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.8"
+			(at 135.89 637.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "652-SRN4018-470M"
+			(at 135.89 737.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRN4018-470M?qs=UvjENeDOEee2dr9Hzw8jPw%3D%3D"
+			(at 135.89 837.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 135.89 937.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SRN4018-470M"
+			(at 135.89 1037.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "01ac0a78-f89f-48de-b295-e60ee13ac630")
+		)
+		(pin "1"
+			(uuid "917d287e-0e70-4971-bfe0-3669ad1c8866")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 231.14 264.16 90)
 		(unit 1)
@@ -14018,7 +14469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P200X200X80-9N-D"
+		(property "Footprint" "custom:SON50P200X200X80-9N-D"
 			(at 359.41 192.71 0)
 			(hide yes)
 			(show_name no)
@@ -14144,6 +14595,84 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 346.71 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62bb6cb5-432d-4a08-9890-aaf7bf0e9f6c")
+		(property "Reference" "#PWR043"
+			(at 346.71 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 346.71 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 346.71 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ccb46ea-86de-489c-88d8-bac2982cd3c7")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14651,7 +15180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.18 177.292 90)
 			(hide yes)
 			(show_name no)
@@ -14956,14 +15485,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 31.75 55.88 0)
+		(property "Value" "+3V3"
+			(at 34.29 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15125,7 +15655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQH32CH100K53L"
+		(property "Footprint" "custom:LQH32CH100K53L"
 			(at 311.15 -31.42 0)
 			(hide yes)
 			(show_name no)
@@ -15529,6 +16059,85 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 346.71 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9248bb04-ae76-4c30-a1f8-bbcd5b858eb9")
+		(property "Reference" "H2"
+			(at 349.25 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 349.25 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+			(at 346.71 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 346.71 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d32b1c57-f535-47b0-92df-23d67652e41f")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -16041,14 +16650,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 133.35 36.83 0)
+		(property "Value" "+3V3"
+			(at 135.89 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16913,7 +17523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BME688"
+		(property "Footprint" "custom:BME688"
 			(at 350.52 240.97 0)
 			(hide yes)
 			(show_name no)
@@ -17064,14 +17674,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 57.15 36.83 0)
+		(property "Value" "+3V3"
+			(at 59.69 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -17471,7 +18082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.6752 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18348,14 +18959,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 312.42 95.25 0)
+		(property "Value" "+3V3"
+			(at 314.96 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18761,14 +19373,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 360.68 137.16 0)
+		(property "Value" "+3V3"
+			(at 363.22 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -19246,7 +19859,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.478 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -19328,7 +19941,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.528 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -19574,7 +20187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 32.7152 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19656,7 +20269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.128 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -19699,148 +20312,6 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "R208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom:VLS5045EX-470M")
-		(at 119.38 241.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6b40cea-243a-46ac-9698-bf370cad35cb")
-		(property "Reference" "L3"
-			(at 129.54 234.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VLS5045EX-470M"
-			(at 129.54 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "VLS5045EX330M"
-			(at 135.89 337.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf"
-			(at 135.89 437.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "SMD / SMT Inductors (Coils), L=47?H, L x W x T :"
-			(at 119.38 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 135.89 637.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "810-VLS5045EX-470M"
-			(at 135.89 737.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/VLS5045EX-470M?qs=oF%2FSscNnLpCeYwLVwva3Sw%3D%3D"
-			(at 135.89 837.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 135.89 937.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VLS5045EX-470M"
-			(at 135.89 1037.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "b46be363-1800-413c-8ee9-087fb5e40654")
-		)
-		(pin "1"
-			(uuid "55d71906-3619-4a52-b766-1ed10e263b0b")
-		)
-		(instances
-			(project "smart-fermentation-glass"
-				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -20172,7 +20643,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 150.368 99.06 90)
 			(hide yes)
 			(show_name no)
