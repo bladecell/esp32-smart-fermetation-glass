@@ -6601,7 +6601,7 @@
 		(uuid "26091400-51ad-464c-9496-47558b278766")
 	)
 	(junction
-		(at 312.42 102.87)
+		(at 318.77 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "287f6729-bb64-4b6e-a43d-402a73527377")
@@ -6817,6 +6817,12 @@
 		(uuid "aa6d35d4-0c33-4820-872c-84b815a24758")
 	)
 	(junction
+		(at 332.74 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b52a0de1-92f2-4ab5-86af-87ff41d4895d")
+	)
+	(junction
 		(at 162.56 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6833,6 +6839,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9693ad2-e35d-471e-b52c-e6e0e700ce2d")
+	)
+	(junction
+		(at 318.77 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9e6c324-5709-4c0c-b6dd-d29944afe41d")
 	)
 	(junction
 		(at 68.58 167.64)
@@ -6911,10 +6923,6 @@
 		(uuid "665c1dde-871d-47b7-a949-4c68cc49c631")
 	)
 	(no_connect
-		(at 129.54 101.6)
-		(uuid "8b774f82-9dfe-4852-a5fc-2853b8f3e144")
-	)
-	(no_connect
 		(at 269.24 261.62)
 		(uuid "8f568777-3433-401f-8f39-22fed9d9b47b")
 	)
@@ -6954,7 +6962,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 102.87) (xy 332.74 102.87)
+			(xy 318.77 102.87) (xy 332.74 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7324,6 +7332,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 81.28) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2724c3ca-9141-4330-9175-e41514b1f6a5")
+	)
+	(wire
+		(pts
 			(xy 360.68 142.24) (xy 360.68 146.05)
 		)
 		(stroke
@@ -7344,7 +7362,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 100.33) (xy 312.42 102.87)
+			(xy 318.77 100.33) (xy 318.77 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7474,7 +7492,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 44.45) (xy 334.01 44.45)
+			(xy 274.32 44.45) (xy 332.74 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7521,6 +7539,16 @@
 			(type default)
 		)
 		(uuid "421fe314-3171-4ca4-8db9-320b26ebd83b")
+	)
+	(wire
+		(pts
+			(xy 332.74 44.45) (xy 332.74 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e29b2d-62cf-4f5d-a343-1fa5cddf3ec1")
 	)
 	(wire
 		(pts
@@ -7720,7 +7748,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "544da2b5-30ab-4b84-ad14-7eb3c22d8301")
+		(uuid "5492b666-da28-442d-98c5-24a8893362f5")
 	)
 	(wire
 		(pts
@@ -8044,7 +8072,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 102.87) (xy 312.42 106.68)
+			(xy 318.77 102.87) (xy 318.77 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8294,7 +8322,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 119.38) (xy 328.93 119.38)
+			(xy 318.77 119.38) (xy 328.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8324,7 +8352,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 114.3) (xy 312.42 119.38)
+			(xy 318.77 114.3) (xy 318.77 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8421,6 +8449,16 @@
 			(type default)
 		)
 		(uuid "86b8e7b5-5ec7-4e29-94c2-9b9ed1f1f5c2")
+	)
+	(wire
+		(pts
+			(xy 143.51 101.6) (xy 143.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a1e0e5-6480-4e7e-978a-622f42de21d8")
 	)
 	(wire
 		(pts
@@ -8581,6 +8619,16 @@
 			(type default)
 		)
 		(uuid "9976df6d-e120-4fa7-96f0-1ae314c6c846")
+	)
+	(wire
+		(pts
+			(xy 332.74 44.45) (xy 334.01 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998170be-fb3e-44e1-b4ea-b59efbcfbb30")
 	)
 	(wire
 		(pts
@@ -9341,6 +9389,16 @@
 			(type default)
 		)
 		(uuid "d7e63dfa-6262-46df-82f1-3ac9558d9d5d")
+	)
+	(wire
+		(pts
+			(xy 129.54 101.6) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d68b5c-9062-4c5d-9c11-0ea8bfafb9f7")
 	)
 	(wire
 		(pts
@@ -10163,6 +10221,110 @@
 		(uuid "fb7ee31e-62e0-407f-bf38-1120057eee84")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 143.51 86.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "042bc604-be7d-4674-a9b0-c6d81bd00eff")
+		(property "Reference" "R209"
+			(at 146.05 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ(1%)"
+			(at 146.05 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 145.288 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 143.51 86.36 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-0710K"
+			(at 143.51 86.36 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fdeb140a-070d-4446-af7b-65f3ff2cd2a4")
+		)
+		(pin "1"
+			(uuid "845ab68d-f258-49e5-bc84-6bcf23a20c50")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "R209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x24")
 		(at 274.32 243.84 0)
 		(unit 1)
@@ -10219,6 +10381,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 274.32 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-502244-2430"
+			(at 274.32 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "MX-502244-2430"
 			(at 274.32 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -10375,6 +10559,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-070RL"
+			(at 63.5 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-070RL"
+			(at 63.5 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b929aaca-d70c-4f39-95b1-5991bc238535")
 		)
@@ -10385,6 +10591,105 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "R203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 213.36 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "095c45d7-446b-44ad-8d6f-42801dbf34d4")
+		(property "Reference" "D5"
+			(at 224.79 139.6298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 224.79 142.1698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 214.63 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 215.9 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 213.36 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "WS2812B-B-V6"
+			(at 213.36 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9437cde6-46dc-4002-a834-72e2820fe826")
+		)
+		(pin "3"
+			(uuid "b2eddcb9-28dc-46e5-8c9f-c203b704590a")
+		)
+		(pin "2"
+			(uuid "4e99016d-7d04-443d-b772-f3999204ad47")
+		)
+		(pin "1"
+			(uuid "88ed195c-5709-4797-bd27-662293f8124f")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10446,6 +10751,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-074K7L"
+			(at 170.18 182.88 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-074K7"
+			(at 170.18 182.88 270)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10615,6 +10942,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 189.23 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-0710K"
+			(at 189.23 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ea2ab404-fe94-475b-9880-7184b28cac5e")
 		)
@@ -10766,6 +11115,28 @@
 			)
 		)
 		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
+			(at 201.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "595-BQ24074RGTR"
+			(at 201.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "BQ24074RGTR"
 			(at 201.93 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10974,6 +11345,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-075K1L"
+			(at 88.9 175.26 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-075K1L"
+			(at 88.9 175.26 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11299,6 +11692,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "306-S2BPHKSLFSNPP"
+			(at 134.62 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "S2B-PH-K-S"
+			(at 134.62 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55f9e535-51cb-4fd9-a76d-769c0678fc17")
 		)
@@ -11370,6 +11785,28 @@
 		)
 		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
 			(at 162.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "863-MBR0530T1G"
+			(at 162.56 241.3 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "MBR0530-FAI"
+			(at 162.56 241.3 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11540,6 +11977,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-071K54L"
+			(at 175.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-071K54L"
+			(at 175.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77afe9cd-5b38-4c9f-8475-f83adde1d97d")
 		)
@@ -11691,6 +12150,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C104KAT2A"
+			(at 256.54 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C104KAT2A"
 			(at 256.54 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11952,7 +12433,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 312.42 110.49 0)
+		(at 318.77 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11963,7 +12444,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bb6165e-aebd-49fa-bc6b-0722c93e5139")
 		(property "Reference" "C8"
-			(at 316.23 109.2199 0)
+			(at 322.58 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11974,7 +12455,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 316.23 111.7599 0)
+			(at 322.58 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11985,7 +12466,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 313.3852 114.3 0)
+			(at 319.7352 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11996,7 +12477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 110.49 0)
+			(at 318.77 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12007,7 +12488,29 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 312.42 110.49 0)
+			(at 318.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C104KAT2A"
+			(at 318.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C104KAT2A"
+			(at 318.77 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12165,6 +12668,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 231.14 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C105KAT2A"
+			(at 231.14 274.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C105KAT2A"
+			(at 231.14 274.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12496,6 +13021,84 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 213.36 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c6ecdac-0970-44c6-80c7-4becd309ea04")
+		(property "Reference" "#PWR029"
+			(at 213.36 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_SYS"
+			(at 213.36 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 213.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2b2cd4b-096c-43fd-aa08-ce606010ede8")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12882,6 +13485,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-071K78L"
+			(at 185.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-071K78L"
+			(at 185.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d98167b4-0db7-41bf-809a-da2ae925c915")
 		)
@@ -13197,6 +13822,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "595-TPS63031DSKR"
+			(at 344.17 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "TPS63031DSKR"
+			(at 344.17 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "df10115d-53b6-486d-aacc-75590a214434")
 		)
@@ -13306,6 +13953,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 226.06 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-0710K"
+			(at 226.06 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "21af0c2b-cd06-45bf-a927-450f4745588b")
 		)
@@ -13316,84 +13985,6 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 213.36 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "545e9ca3-be27-4046-aaf6-1cb13a759af5")
-		(property "Reference" "#PWR029"
-			(at 213.36 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 213.36 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 213.36 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d14351e5-ff70-4f5e-bb44-4684008fd85c")
-		)
-		(instances
-			(project "smart-fermentation-glass"
-				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13457,6 +14048,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 74.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-075K1L"
+			(at 74.93 175.26 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-075K1L"
+			(at 74.93 175.26 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13546,6 +14159,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "863-MBR0530T1G"
+			(at 162.56 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "MBR0530-FAI"
+			(at 162.56 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6624c72c-6788-4780-9759-2f3656256255")
 		)
@@ -13618,6 +14253,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 304.8 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C104KAT2A"
+			(at 304.8 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C104KAT2A"
 			(at 304.8 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13778,6 +14435,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 298.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C104KAT2A"
+			(at 298.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C104KAT2A"
 			(at 298.45 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14035,6 +14714,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 236.22 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R61E106MA3D"
+			(at 236.22 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "GRM188R61E106MA73D"
 			(at 236.22 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14343,6 +15044,17 @@
 				(justify left top)
 			)
 		)
+		(property "TME Part Number" "SRN4018470M-BOU-0"
+			(at 119.38 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "01ac0a78-f89f-48de-b295-e60ee13ac630")
 		)
@@ -14413,6 +15125,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 231.14 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C105KAT2A"
+			(at 231.14 264.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C105KAT2A"
+			(at 231.14 264.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14733,6 +15467,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 231.14 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C105KAT2A"
+			(at 231.14 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C105KAT2A"
+			(at 231.14 251.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15213,6 +15969,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-074K7L"
+			(at 170.18 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-074K7"
+			(at 170.18 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b908391-60d6-4824-a1c9-6357e4e15b30")
 		)
@@ -15608,6 +16386,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM188R61E106MA3D"
+			(at 69.85 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "GRM188R61E106MA73D"
+			(at 69.85 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a0a7e467-b0af-4e79-8fee-d2c47c2bdb08")
 		)
@@ -15748,6 +16548,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "TME Part Number" "LQH32PZ1R5NN0L"
+			(at 327.66 63.5 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -15916,6 +16727,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM188R61C475KE1D"
+			(at 111.76 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "GRM188R61C475KE11D"
+			(at 111.76 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "883975c3-d328-4c76-9abd-861e78aaf40d")
 		)
@@ -15988,6 +16821,28 @@
 			)
 		)
 		(property "Description" "ESP32-C3-WROOM-02 is a general-purpose Wi-Fi and Bluetooth LE module. This module features a rich set of peripherals and high performance, which makes it an ideal choice for smart home, industrial automation, health care, consumer electronics, etc."
+			(at 101.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "356-ESP32C3WROOM02N4"
+			(at 101.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "ESP32C3-WROOM-02N4"
 			(at 101.6 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16288,6 +17143,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-072R2L"
+			(at 149.86 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-072R2L"
+			(at 149.86 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "72660e26-5893-451f-b4ed-c6483393f03b")
 		)
@@ -16360,6 +17237,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 384.81 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R61E106MA3D"
+			(at 384.81 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "GRM188R61E106MA73D"
 			(at 384.81 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16452,6 +17351,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "653-B3U-3000P"
+			(at 148.59 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "B3U-3000P"
+			(at 148.59 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d45f9716-9466-4a1b-ab56-ab3ef023716a")
 		)
@@ -16524,6 +17445,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R61C475KE1D"
+			(at 187.96 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "GRM188R61C475KE11D"
 			(at 187.96 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17085,6 +18028,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM188R61C475KE1D"
+			(at 271.78 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "GRM188R61C475KE11D"
+			(at 271.78 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09f72983-390f-46cb-99da-a0b3560bfca9")
 		)
@@ -17311,6 +18276,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 231.14 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C105KAT2A"
+			(at 231.14 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C105KAT2A"
+			(at 231.14 226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17795,6 +18782,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "863-MBR0530T1G"
+			(at 162.56 213.36 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "MBR0530-FAI"
+			(at 162.56 213.36 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a59a7177-da59-4fa5-8b0c-d63c5fcc5619")
 		)
@@ -17867,6 +18876,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-071ML"
+			(at 133.35 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-071M"
 			(at 133.35 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -18115,6 +19146,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "581-06035C104KAT2A"
+			(at 92.71 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C104KAT2A"
+			(at 92.71 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "63673a93-d6e6-4cdb-9ebe-cbed5afcb983")
 		)
@@ -18125,94 +19178,6 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 213.36 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8e6cc23-f8eb-4818-96b6-9f84146e2425")
-		(property "Reference" "D1"
-			(at 224.79 139.6298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 224.79 142.1698 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom:SMTLA5050RGB"
-			(at 214.63 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 215.9 155.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 213.36 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "1564c47c-5d52-4444-aa90-8375a8378ba9")
-		)
-		(pin "4"
-			(uuid "6cf1290a-2385-4288-88b5-1c90e08a2a88")
-		)
-		(pin "2"
-			(uuid "e8dcbbb2-925c-4caf-82a3-11239a697b50")
-		)
-		(pin "1"
-			(uuid "c03fa4ce-5dac-4dad-9b44-a1c80e81ebae")
-		)
-		(instances
-			(project "smart-fermentation-glass"
-				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -18275,6 +19240,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 369.57 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R61E106MA3D"
+			(at 369.57 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "GRM188R61E106MA73D"
 			(at 369.57 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -18358,6 +19345,28 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 17.78 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "653-B3U-3000P"
+			(at 17.78 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "B3U-3000P"
+			(at 17.78 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18595,6 +19604,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 158.75 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-0746K4L"
+			(at 158.75 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-0746K4L"
 			(at 158.75 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18921,6 +19952,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM188R61C475KE1D"
+			(at 149.86 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "GRM188R61C475KE11D"
+			(at 149.86 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2e6380f4-663f-4981-9a8e-19b16fbb2585")
 		)
@@ -18931,85 +19984,6 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 312.42 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4bed158-918b-41e6-a0e4-d4c22149899d")
-		(property "Reference" "#PWR0207"
-			(at 312.42 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 314.96 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 312.42 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4f73171-d353-4e83-9a4d-3c23ba605a50")
-		)
-		(instances
-			(project "smart-fermentation-glass"
-				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
-					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -19160,6 +20134,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "581-06035C104KAT2A"
+			(at 290.83 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C104KAT2A"
+			(at 290.83 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "273e2f55-19bc-4907-8d4b-b1d643303697")
 		)
@@ -19230,6 +20226,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 231.14 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C105KAT2A"
+			(at 231.14 266.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C105KAT2A"
+			(at 231.14 266.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19313,6 +20331,28 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 106.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "511-USBLC6-2SC6"
+			(at 106.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "USBLC6-2SC6"
 			(at 106.68 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -19430,6 +20470,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 143.51 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dac9cd5d-073d-4499-8fef-63d04161f02f")
+		(property "Reference" "#PWR0218"
+			(at 143.51 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 146.05 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 143.51 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3c9cc84-b52e-467f-b403-e1e19d1879dd")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 231.14 269.24 90)
 		(unit 1)
@@ -19484,6 +20603,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 231.14 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C105KAT2A"
+			(at 231.14 269.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C105KAT2A"
+			(at 231.14 269.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19728,6 +20869,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "581-06035C105KAT2A"
+			(at 231.14 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C105KAT2A"
+			(at 231.14 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7ad29a0a-3cf6-4806-b8e4-8d32a55a70dd")
 		)
@@ -19800,6 +20963,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 95.25 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-06035C104KAT2A"
+			(at 95.25 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C104KAT2A"
 			(at 95.25 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -19892,6 +21077,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 139.7 63.5 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-0710K"
+			(at 139.7 63.5 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c402ea2-aaeb-4111-9b29-0f31851c14fd")
 		)
@@ -19974,6 +21181,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 31.75 66.04 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-0710K"
+			(at 31.75 66.04 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "793d1679-ee0f-4be8-9b16-47e7b9a2567d")
 		)
@@ -20046,6 +21275,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 247.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R61E106MA3D"
+			(at 247.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "GRM188R61E106MA73D"
 			(at 247.65 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -20138,6 +21389,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM188R61E106MA3D"
+			(at 274.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "GRM188R61E106MA73D"
+			(at 274.32 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "15a8c5d5-1266-4936-984a-c66c29bddb8d")
 		)
@@ -20210,6 +21483,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "810-C1608X7R1C105K"
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "C1608X7R1C105KAC"
 			(at 31.75 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -20302,6 +21597,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 133.35 46.99 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-0710K"
+			(at 133.35 46.99 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "187915f8-30e9-4fe2-98e0-116b9ce86a20")
 		)
@@ -20381,6 +21698,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "581-06035C105KAT2A"
+			(at 231.14 271.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "06035C105KAT2A"
+			(at 231.14 271.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ed2b2b3-5e15-48cd-aeb2-294534682eb3")
 		)
@@ -20451,6 +21790,28 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 50.8 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "640-USB4105-GF-A"
+			(at 50.8 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "USB4105-GF-A"
 			(at 50.8 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -20591,6 +21952,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "78-SI1308EDL-T1-GE3"
+			(at 147.32 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "SI1308EDL-T1-GE3"
+			(at 147.32 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "57bb8d57-358a-4059-971b-80cfa6ae1936")
 		)
@@ -20676,6 +22059,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 148.59 99.06 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-0710K"
+			(at 148.59 99.06 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4c6d3b7a-4e85-4fd5-a751-3b3bbb8d4cbf")
 		)
@@ -20749,6 +22154,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 199.39 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 199.39 254 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-0710K"
+			(at 199.39 254 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
