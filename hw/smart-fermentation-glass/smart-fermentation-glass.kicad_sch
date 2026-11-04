@@ -6923,12 +6923,20 @@
 		(uuid "665c1dde-871d-47b7-a949-4c68cc49c631")
 	)
 	(no_connect
+		(at 269.24 228.6)
+		(uuid "8208170b-9963-4fce-a58e-ee816f788d54")
+	)
+	(no_connect
 		(at 269.24 261.62)
 		(uuid "8f568777-3433-401f-8f39-22fed9d9b47b")
 	)
 	(no_connect
 		(at 269.24 223.52)
 		(uuid "d0961151-aabe-45cd-a800-6851e15a4fe8")
+	)
+	(no_connect
+		(at 269.24 231.14)
+		(uuid "dbc0bf50-fe2e-4cf8-9ba1-cc035de8c413")
 	)
 	(wire
 		(pts
@@ -6979,16 +6987,6 @@
 			(type default)
 		)
 		(uuid "07dc03df-093c-4226-8dbb-f4439abef4bc")
-	)
-	(wire
-		(pts
-			(xy 189.23 246.38) (xy 189.23 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08564704-e6ed-45f8-ab4a-24fa71a5d429")
 	)
 	(wire
 		(pts
@@ -7799,16 +7797,6 @@
 			(type default)
 		)
 		(uuid "5740e560-9bc8-4aec-adce-0aabe573f7a2")
-	)
-	(wire
-		(pts
-			(xy 266.7 231.14) (xy 269.24 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58233744-9c23-40c7-b68d-d481ac37485e")
 	)
 	(wire
 		(pts
@@ -8732,16 +8720,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 228.6) (xy 269.24 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3416ae2-4bdc-4c33-87df-a59f98bb15f7")
-	)
-	(wire
-		(pts
 			(xy 223.52 266.7) (xy 227.33 266.7)
 		)
 		(stroke
@@ -9132,16 +9110,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 246.38) (xy 199.39 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8bb7398-51b4-4388-8e66-7b24bca5c591")
-	)
-	(wire
-		(pts
 			(xy 189.23 62.23) (xy 185.42 62.23)
 		)
 		(stroke
@@ -9419,16 +9387,6 @@
 			(type default)
 		)
 		(uuid "d97b9a12-c082-4c80-937c-f534f79a98f9")
-	)
-	(wire
-		(pts
-			(xy 189.23 257.81) (xy 189.23 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc59e395-9437-43f5-a80d-11e417fdd806")
 	)
 	(wire
 		(pts
@@ -9722,16 +9680,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 257.81) (xy 199.39 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd35de9c-0ce8-413d-9c9d-f3162c4a1c21")
-	)
-	(wire
-		(pts
 			(xy 133.35 50.8) (xy 133.35 73.66)
 		)
 		(stroke
@@ -9930,16 +9878,6 @@
 		)
 		(uuid "72edfdbd-d08c-41b8-bce1-84f4bc334e50")
 	)
-	(label "TSCL"
-		(at 266.7 228.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "83133d12-b2bc-455c-b772-443030cdb687")
-	)
 	(label "SDA"
 		(at 179.07 179.07 0)
 		(effects
@@ -10020,16 +9958,6 @@
 		)
 		(uuid "a422f0f7-cabe-4347-92ad-d3f494295f2b")
 	)
-	(label "TSCL"
-		(at 189.23 246.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a49fc7a0-c74c-4320-946c-714a0741a95a")
-	)
 	(label "CS"
 		(at 133.35 96.52 0)
 		(effects
@@ -10099,16 +10027,6 @@
 			(justify left bottom)
 		)
 		(uuid "d1ad433d-f031-4757-9e64-405a404ad856")
-	)
-	(label "TSDA"
-		(at 199.39 246.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d6ca8128-33a3-4b8f-b5b0-7f10cb6138cb")
 	)
 	(label "GDR"
 		(at 133.35 248.92 180)
@@ -10189,16 +10107,6 @@
 			(justify left bottom)
 		)
 		(uuid "edee3b4f-7408-4012-877f-506750cd938f")
-	)
-	(label "TSDA"
-		(at 266.7 231.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f0b1769e-4524-431b-9df0-08144727fd3e")
 	)
 	(label "SCL"
 		(at 358.14 151.13 0)
@@ -10880,110 +10788,6 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 189.23 254 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d3c8848-4f20-4ef1-8647-e3ba8aba703c")
-		(property "Reference" "R7"
-			(at 191.77 252.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 191.77 255.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 187.452 254 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-0710KL"
-			(at 189.23 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME Part Number" "RC0603FR-0710K"
-			(at 189.23 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ea2ab404-fe94-475b-9880-7184b28cac5e")
-		)
-		(pin "1"
-			(uuid "8a0facdc-e0df-4af2-a036-1ab4e9b5ba0f")
-		)
-		(instances
-			(project "smart-fermentation-glass"
-				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -19403,84 +19207,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 261.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf06ef0a-8aa4-47d8-bce1-2241bf7a8225")
-		(property "Reference" "#PWR040"
-			(at 189.23 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 266.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb6231bd-f058-4a47-af8f-53d8eea813c0")
-		)
-		(instances
-			(project "smart-fermentation-glass"
-				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 43.18 189.23 0)
 		(unit 1)
 		(body_style 1)
@@ -19734,84 +19460,6 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 261.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d16600c7-bcb8-40b4-a1d7-da3426c2dbb4")
-		(property "Reference" "#PWR041"
-			(at 199.39 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 266.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36483102-c64d-4e28-bc78-8ee2dd9f5c2a")
-		)
-		(instances
-			(project "smart-fermentation-glass"
-				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -22101,110 +21749,6 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "R206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 199.39 254 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fef0a10c-6434-49ff-b71f-4ded1627e725")
-		(property "Reference" "R8"
-			(at 201.93 252.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 201.93 255.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 201.168 254 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 199.39 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-0710KL"
-			(at 199.39 254 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME Part Number" "RC0603FR-0710K"
-			(at 199.39 254 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e75383d9-b8fa-4492-a65f-f069ab2ca3fb")
-		)
-		(pin "1"
-			(uuid "b44a38fe-652e-4d42-9c41-323476499986")
-		)
-		(instances
-			(project "smart-fermentation-glass"
-				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
-					(reference "R8")
 					(unit 1)
 				)
 			)
