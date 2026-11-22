@@ -6667,7 +6667,7 @@
 		(uuid "5f32f9e3-204e-4f05-81af-2aeeb0fd04b0")
 	)
 	(junction
-		(at 148.59 104.14)
+		(at 175.26 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6156f341-a3da-4dd2-b34d-a658d6c9cc13")
@@ -7150,7 +7150,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 102.87) (xy 148.59 104.14)
+			(xy 175.26 102.87) (xy 175.26 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7330,7 +7330,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 81.28) (xy 143.51 82.55)
+			(xy 161.29 90.17) (xy 161.29 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7450,7 +7450,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 133.35 86.36)
+			(xy 129.54 86.36) (xy 146.05 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7507,6 +7507,16 @@
 			(type default)
 		)
 		(uuid "3ed4c229-90c3-4036-91a6-4fe3f443eae4")
+	)
+	(wire
+		(pts
+			(xy 146.05 77.47) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1cc9db-c58a-4bf0-a599-0ae0244e0562")
 	)
 	(wire
 		(pts
@@ -7720,7 +7730,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 148.59 95.25)
+			(xy 175.26 93.98) (xy 175.26 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8020,6 +8030,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68893970-561d-42f8-8ac7-fca854bd5380")
+	)
+	(wire
+		(pts
 			(xy 31.75 69.85) (xy 31.75 71.12)
 		)
 		(stroke
@@ -8117,16 +8137,6 @@
 			(type default)
 		)
 		(uuid "6ee2d08a-72c9-4afc-8485-bd21fae6c9e0")
-	)
-	(wire
-		(pts
-			(xy 129.54 104.14) (xy 148.59 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f2aa813-5cae-4eaa-aca0-afb456911ad7")
 	)
 	(wire
 		(pts
@@ -8460,7 +8470,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 101.6) (xy 143.51 90.17)
+			(xy 161.29 101.6) (xy 161.29 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8730,6 +8740,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 104.14) (xy 175.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75b6b2e-aadd-44e8-88ee-4b9f4e01b90d")
+	)
+	(wire
+		(pts
 			(xy 57.15 44.45) (xy 57.15 41.91)
 		)
 		(stroke
@@ -8920,7 +8940,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 114.3) (xy 148.59 115.57)
+			(xy 175.26 114.3) (xy 175.26 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9367,16 +9387,6 @@
 			(type default)
 		)
 		(uuid "d7e63dfa-6262-46df-82f1-3ac9558d9d5d")
-	)
-	(wire
-		(pts
-			(xy 129.54 101.6) (xy 143.51 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8d68b5c-9062-4c5d-9c11-0ea8bfafb9f7")
 	)
 	(wire
 		(pts
@@ -10140,7 +10150,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 86.36 180)
+		(at 161.29 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10151,7 +10161,7 @@
 		(fields_autoplaced yes)
 		(uuid "042bc604-be7d-4674-a9b0-c6d81bd00eff")
 		(property "Reference" "R209"
-			(at 146.05 85.0899 0)
+			(at 163.83 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10162,7 +10172,7 @@
 			)
 		)
 		(property "Value" "10kΩ(1%)"
-			(at 146.05 87.6299 0)
+			(at 163.83 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10173,7 +10183,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 145.288 86.36 90)
+			(at 163.068 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10184,7 +10194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 86.36 0)
+			(at 161.29 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10195,7 +10205,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 86.36 0)
+			(at 161.29 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10206,7 +10216,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-0710KL"
-			(at 143.51 86.36 180)
+			(at 161.29 95.25 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10217,7 +10227,7 @@
 			)
 		)
 		(property "TME Part Number" "RC0603FR-0710K"
-			(at 143.51 86.36 180)
+			(at 161.29 95.25 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10710,6 +10720,110 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "R205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c285a06-95d6-4728-9dd6-2a8a32fd7298")
+		(property "Reference" "R210"
+			(at 148.59 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ(1%)"
+			(at 148.59 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.828 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-0710KL"
+			(at 146.05 82.55 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME Part Number" "RC0603FR-0710K"
+			(at 146.05 82.55 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8483c959-d4ad-4acf-82c3-2e6618525093")
+		)
+		(pin "1"
+			(uuid "1c147bf9-6275-4272-ae49-ddb5c21dbd7d")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -12920,7 +13034,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 148.59 93.98 0)
+		(at 175.26 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12931,7 +13045,7 @@
 		(fields_autoplaced yes)
 		(uuid "40b0d5a6-78da-46cf-9aef-acab7136dbbb")
 		(property "Reference" "#PWR0215"
-			(at 148.59 97.79 0)
+			(at 175.26 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12942,7 +13056,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 151.13 92.7099 0)
+			(at 177.8 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12953,7 +13067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12964,7 +13078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12975,7 +13089,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 148.59 93.98 0)
+			(at 175.26 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14577,7 +14691,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 115.57 0)
+		(at 175.26 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14588,7 +14702,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e8e3c1a-49d6-4a22-856c-3fe180ee4b4f")
 		(property "Reference" "#PWR0210"
-			(at 148.59 121.92 0)
+			(at 175.26 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14599,7 +14713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 120.65 0)
+			(at 175.26 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14609,7 +14723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 115.57 0)
+			(at 175.26 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14620,7 +14734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 115.57 0)
+			(at 175.26 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14631,7 +14745,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 115.57 0)
+			(at 175.26 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17100,7 +17214,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 148.59 109.22 90)
+		(at 175.26 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17111,7 +17225,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b019e84-732b-4e8b-bea2-8de3e1fea47c")
 		(property "Reference" "SW202"
-			(at 149.86 107.9499 90)
+			(at 176.53 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17122,7 +17236,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 149.86 110.4899 90)
+			(at 176.53 110.4899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17133,7 +17247,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
-			(at 143.51 109.22 0)
+			(at 170.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17144,7 +17258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 109.22 0)
+			(at 170.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17155,7 +17269,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 148.59 109.22 0)
+			(at 175.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17166,7 +17280,7 @@
 			)
 		)
 		(property "Mouser Part Number" "653-B3U-3000P"
-			(at 148.59 109.22 90)
+			(at 175.26 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17177,7 +17291,7 @@
 			)
 		)
 		(property "TME Part Number" "B3U-3000P"
-			(at 148.59 109.22 90)
+			(at 175.26 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17458,6 +17572,85 @@
 			(project "smart-fermentation-glass"
 				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
 					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 146.05 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c25f59-bf9e-451c-be23-2aa74d5d56bd")
+		(property "Reference" "#PWR0219"
+			(at 146.05 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 148.59 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 146.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83337bb1-e4b6-416b-9a38-08ddc7a3c170")
+		)
+		(instances
+			(project "smart-fermentation-glass"
+				(path "/f3bac863-5f5f-47b9-9f90-a6fbbc15474d"
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -19556,7 +19749,7 @@
 		(fields_autoplaced yes)
 		(uuid "d24f5745-cf12-4ba7-adf9-30211512b143")
 		(property "Reference" "C21"
-			(at 153.3174 229.8699 0)
+			(at 153.67 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19566,8 +19759,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 153.3174 232.4099 0)
+		(property "Value" "4.7uF/25V"
+			(at 153.67 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19577,7 +19770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 150.8252 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -20129,7 +20322,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 143.51 81.28 0)
+		(at 161.29 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20140,7 +20333,7 @@
 		(fields_autoplaced yes)
 		(uuid "dac9cd5d-073d-4499-8fef-63d04161f02f")
 		(property "Reference" "#PWR0218"
-			(at 143.51 85.09 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20151,7 +20344,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 146.05 80.0099 0)
+			(at 163.83 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20162,7 +20355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 81.28 0)
+			(at 161.29 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20173,7 +20366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 81.28 0)
+			(at 161.29 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20184,7 +20377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 143.51 81.28 0)
+			(at 161.29 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21652,7 +21845,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 99.06 180)
+		(at 175.26 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21663,7 +21856,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd709d42-32b5-4629-b1e2-7f6833b8d96e")
 		(property "Reference" "R206"
-			(at 151.13 97.7899 0)
+			(at 177.8 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21674,7 +21867,7 @@
 			)
 		)
 		(property "Value" "10kΩ(1%)"
-			(at 151.13 100.3299 0)
+			(at 177.8 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21685,7 +21878,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 150.368 99.06 90)
+			(at 177.038 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21696,7 +21889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 99.06 0)
+			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21707,7 +21900,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 99.06 0)
+			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21718,7 +21911,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-0710KL"
-			(at 148.59 99.06 180)
+			(at 175.26 99.06 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21729,7 +21922,7 @@
 			)
 		)
 		(property "TME Part Number" "RC0603FR-0710K"
-			(at 148.59 99.06 180)
+			(at 175.26 99.06 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
